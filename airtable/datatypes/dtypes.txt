@@ -1,0 +1,28 @@
+Attachment			File
+Autonumber			number
+Barcode				barcode object
+Button				button object
+Checkbox			boolean
+Collaborator		collaborator object
+Count				number
+Created time		string (ISO 8601 formatted date)
+Created By			collaborator object
+Currency			number
+Date & Time			string (ISO 8601 formatted date)
+Duration			number
+Email				string
+Formula				varied outputs (depending on the formula)
+Last modified by	collaborator object
+Last modified time	string (ISO 8601 formatted date)
+Linked record		array of record IDs (strings)
+Long text			string
+Lookup				array of numbers, strings, booleans, or objects
+Multiple select		array of strings
+Number				number
+Percent				number
+Phone number		string
+Rating				number
+Rollup				number or string
+Single line text	string
+Single select		string
+URL					string
