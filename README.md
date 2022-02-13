@@ -14,10 +14,12 @@ DELETE requests based on each field.
 import requests
 from airtable import Airtable
 
-# Airtable(baseID: str, api_key: str, schema: dict)
 baseID, api_key = "YOUR WORKSPACE BASE ID", "API KEY"
-schema = {"Table 1": {"field1"}}
 
+# Dictionary of tables with field names
+schema = {"Table 1": ["field1"]}
+
+# Airtable(baseID: str, api_key: str, schema: dict)
 with Airtable(baseID, api_key, schema) as workspace:
     # Select all records from Table 1
     selected: requests.Response = workspace.select("Table 1")
