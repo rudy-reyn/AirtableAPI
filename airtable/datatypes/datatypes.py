@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
 # 02/12/22
 # datatypes.py
-# rudy@airtable
 import io
 from datetime import time
 
