@@ -1,10 +1,10 @@
 # Python Airtable API
 
 ## Overview
-[https://airtable.com](Airtable) is a web based data management tool that allows users to store and
+[Airtable](https://airtable.com) is a web based data management tool that allows users to store and
 manipulate data, connect with existing applications, and publish views to external websites.
 Projects containing related tables and applications are stored in Workspaces. Airtable dynamically
-generates easy to use [https://airtable.com/api](REST APIs) and documentation for each Workspace.
+generates easy to use [REST APIs](https://airtable.com/api) and documentation for each Workspace.
 
 This is a Python wrapper for interacting with Workspace APIs, allowing for GET, POST, PATCH, and
 DELETE requests based on each field.
