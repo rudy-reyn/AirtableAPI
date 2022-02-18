@@ -1,1 +1,1 @@
-from .api import AirtableBaseAPI, AirtableAPI
+from .api import AirtableBaseAPI, Airtable
