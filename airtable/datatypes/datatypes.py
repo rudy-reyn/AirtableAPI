@@ -43,7 +43,8 @@ class Count(AirtableBaseNumber):
 class Currency(AirtableBaseNumber):
     def __init__(self, num, symbol="$", **kwargs):
         super().__init__(num, float, allow_negative=allow_negative)
-        require(isinstance(symbol, str), TypeError("'symbol' must be a string"))
+        if not isinstance(symbol, str):
+            raise TypeError("'symbol' must be a string")
         self.symbol = symbol
 
     def __str__(self):
@@ -63,6 +64,7 @@ class Duration:
     duration_formats = "h:mm", "h:mm:ss", "h:mm:ss.s", "h:mm:ss.ss", "h:mm:ss.sss"
 
     def __init__(self, duration: int | float, duration_format: str="h:mm"):
+        raise NotImplementedError("Full support does not yet exist")
         if duration_format not in self.duration_formats:
             raise ValueError(f"Invalid duration_format, must be one of:\n{self.duration_formats}")
         self.duration_format: str = duration_format
