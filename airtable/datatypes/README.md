@@ -3,9 +3,9 @@
 ## Overview
 airtable.datatypes is a submodule that maps Airtable field types to corresponding python objects.
 
-The following subclasses are currently supporting:
+The following field types are currently supporting:
 
- Python Class | Airtable Data Type 
+ Python Class | Airtable Field Type 
 ---|---
  Autonumber | Autonumber
  Count      | Count
@@ -13,4 +13,3 @@ The following subclasses are currently supporting:
  Number     | Number
  Percent    | Percent
  Rating     | Percent
----|---
