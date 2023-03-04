@@ -12,9 +12,9 @@ setup(
         "requests",
         "pytest",
     ],
-    author_email="rudy@rudyreynolds.dev",
+    author_email="rudy.reyn@gmail.com",
     description="Simple Python wrapper around dynamically generated Airtable Workspace APIs.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/rure6748/AirtableAPI",
+    url="https://github.com/rudy-reyn/AirtableAPI",
 )
